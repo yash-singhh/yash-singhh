@@ -1,5 +1,41 @@
 # 👋 Hey there, Champ!
 
+Neural Network Status: [====================] 100% Complete
+CUDA Toolkit: 13.0 | Driver: 555.0.0 | TensorRT: 10.0
+
+     ██╗   ██╗ █████╗ ███████╗██╗  ██╗     
+     ██║   ██║██╔══██╗██╔════╝██║  ██║     
+     ██║   ██║███████║███████╗███████║     
+     ╚██╗ ██╔╝██╔══██║╚════██║██╔══██║     
+      ╚████╔╝ ██║  ██║███████║██║  ██║     
+       ╚═══╝  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝      
+
+╔════════════════════ SYSTEM MONITORING ══════════════════════╗
+║ Engineer: Yash Singh 🧠                                          ║
+║ ├─ Location: Mumbai, India 🇮🇳                               ║
+║ ├─ Expertise: Neural Architect / Model Tamer                ║
+║ ├─ Runtime: 24x7 (Unless coffee depleted)                   ║
+║ │                                                           ║
+║ ├─ Process[0]: train_models.py        | ⏱️ Non-stop         ║
+║ ├─ Process[1]: debug_life.py          | Status: LOOPING     ║
+║ ├─ Process[2]: optimize_loss.py       | ETA: Unknown        ║
+║ └─ Process[3]: brew_coffee.py         | ☕ Priority: CRIT   ║
+╚════════════════════════════════════════════════════════════╝
+
+[CRITICAL] Coffee reserves at 12% — initiating emergency protocols...
+[WARNING] Model exhibiting signs of philosophical awareness
+[INFO] Training loss: 0.0042 | Accuracy: 99.9% | Focus: Highly Tuned
+[DEBUG] Reason for success: Still unknown. Possibly dark magic.
+[ERROR] Code ran perfectly on the first try. Please investigate.
+[SYSTEM] Scheduling 2AM thought spirals & AI musings...
+
+Current Mission:
+└─ Teaching models *why* they exist  
+   └─ Model response: "To minimize loss... and maximize meaning?"
+      └─ Scheduling debate with Descartes.
+
+
+
 class NeuralArchitect:
     def __init__(self):
         self.name = "Yash Singh"
