@@ -27,7 +27,8 @@ Current Mission:
 
 
 class NeuralArchitect:
-    def __init__(self):
+
+ def __init__(self):
         self.name = "Yash Singh"
         self.location = "Mumbai, India 🇮🇳"
         self.role = "AI Engineer @ Creative Finserve"
