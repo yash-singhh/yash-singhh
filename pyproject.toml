@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-analyzer"
+version = "1.0.0"
+description = "A Python-based social media analyst that analyses trends and helps companies grow."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+social-analyzer = "social_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["social_analyzer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
