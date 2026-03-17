@@ -1,0 +1,20 @@
+# Social Analyzer — default configuration
+# All values can be overridden via CLI flags (see python -m social_analyzer analyze --help)
+
+# Rolling time window in calendar days.  Use 0 for "all data".
+window_days: 30
+
+# Number of top trends to include in the report.
+top_n: 10
+
+# A trend is "rising" when its recent-half mean engagement is >= this ratio
+# above the older-half mean (1.2 = 20% uplift).
+rising_threshold: 1.2
+
+# Minimum number of posts a keyword / hashtag must appear in to be listed.
+min_post_count: 2
+
+# Engagement score weights (used for ranking trends; does not affect ER %).
+engagement_weight_likes: 1.0
+engagement_weight_comments: 2.0
+engagement_weight_shares: 3.0
